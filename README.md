@@ -14,7 +14,9 @@ The `PropertyCard` should be able to render different values depending on the pr
 
 ### Using Figma
 
-You can find out what styles should be applied to different elements by clicking on them and viewing the details in Figma's Inspect panel in the Tools column on the right.
+- If you do not have a Figma user account yet, choose one of the options to create a new account from the banner above. It is completely free and the sign-up process should only take a minute. Alternatively, if you have an account, all you need to do is sign in.
+
+- Once you have signed in you can find out what styles should be applied to different elements by clicking on them and viewing the details in Figma's Inspect panel in the Tools column on the right.
 
 ![Example Image](/inspect-panel.png "Inspect panel")
 

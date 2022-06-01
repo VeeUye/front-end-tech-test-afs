@@ -8,24 +8,26 @@ If you have any questions or need some help, we're here to give you a hand! Help
 
 We'd like you to build a `PropertyCard` component using [these designs in Figma](https://www.figma.com/file/fkaZlLzbUTSg4f5fQmhyPM/Tech-test?node-id=0%3A1) as a guide.
 
+The `PropertyCard` should be able to render different values depending on the property passed in - such as property type, distance, bills, etc.
+
 ![Example Image](/example.png "Example")
 
-The property card should support different property data values - like property type, distance, bills, etc. - as shown in the designs.
+### Using Figma
 
-You can find out what styles should be applied to different elements by clicking on them and viewing the details in Figma's Inspect panel in the tools column on the right.
+You can find out what styles should be applied to different elements by clicking on them and viewing the details in Figma's Inspect panel in the Tools column on the right.
 
 ![Example Image](/inspect-panel.png "Inspect panel")
 
 ### Tasks
 
 1. Replace the placeholder `Message` component with the `PropertyCard`
-2. Build the `PropertyCard` component using the example images as a reference
+2. Build the `PropertyCard` component using the designs as a reference
 3. Use the property data to render all the properties in a list
 
 ### Bonus challenges if you have time
 
 - Write some unit tests to check the correct information is displayed on the card
-- Add a filter button to toggle between rendering all properties and rendering properties with `propertyType: 'house'` when it is clicked
+- Add a filter button to toggle between rendering all properties and rendering just the properties with `propertyType: 'house'` when it is clicked
 
 ## Tips
 

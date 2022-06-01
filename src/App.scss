@@ -1,0 +1,21 @@
+@import "styles/reset.scss";
+@import "styles/settings.scss";
+
+// ==========================================================================
+// App
+// ==========================================================================
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Apax", Helvetica, Arial, sans-serif;
+  color: $colour-gray-charlie;
+  line-height: 1.5;
+  min-height: 100%;
+}
+
+#root {
+  height: 100%;
+}

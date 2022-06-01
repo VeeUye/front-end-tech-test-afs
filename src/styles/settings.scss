@@ -1,0 +1,74 @@
+// ==========================================================================
+// Settings
+// ==========================================================================
+
+//
+// Fonts
+// ==========================================================================
+
+// Light
+
+@font-face {
+  font-family: "Apax";
+  src: url("./fonts/apax-light.woff2") format("woff2"),
+    url("./fonts/apax-light.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+// Regular
+
+@font-face {
+  font-family: "Apax";
+  src: url("./fonts/apax-regular.woff2") format("woff2"),
+    url("./fonts/apax-regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+// Bold
+
+@font-face {
+  font-family: "Apax";
+  src: url("./fonts/apax-bold.woff2") format("woff2"),
+    url("./fonts/apax-bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+//
+// Colour palette
+// ==========================================================================
+
+// Base colours
+
+$colour-alpha: #ec6b1e;
+$colour-bravo: #6cc2b7;
+$colour-charlie: #1c304a;
+$colour-delta: #ffd47c;
+$colour-echo: #5b50a8;
+$colour-foxtrot: #393453;
+
+// Supporting colours
+
+$colour-alpha-light: #f68744;
+$colour-alpha-dark: #e85b17;
+$colour-bravo-light: #a7dad4;
+$colour-bravo-dark: #004b4b;
+$colour-charlie-dark: #212138;
+$colour-delta-light: #fde3ae;
+$colour-error: #fc4343;
+$colour-error-light: #ffefef;
+
+// Grayscale
+
+$colour-gray-alpha: #f3f3f3;
+$colour-gray-bravo: #e3e3e3;
+$colour-gray-charlie: #9998a2;
+$colour-gray-delta: #636171;
+$colour-gray-echo: #767584;
+$colour-gray-foxtrot: #fafafa;
+$colour-gray-golf: #737279;

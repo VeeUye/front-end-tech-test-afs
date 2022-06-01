@@ -1,6 +1,6 @@
 # Junior Front-End Developer Tech Task
 
-First off, **don't worry**! This is a simple coding challenge just to see how you approach the task and how you work.
+First off, **don't worry**! This is a simple coding challenge just to see how you approach the task and how you work. We are not expecting pixel-perfection at this early stage of your career.
 
 If you have any questions or need some help, we're here to give you a hand! Helping each other out is a big part of working at AFS. Just give us a shout at [careers@accommodationforstudents.com](mailto:careers@accommodationforstudents.com).
 

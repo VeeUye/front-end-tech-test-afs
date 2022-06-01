@@ -6,8 +6,10 @@ import Message from './components/Message'
 import properties from './data/properties'
 import './App.scss'
 
-export default () => (
+const App = () => (
   <Canvas>
     <Message text={`Welcome to ${properties[0].address.city}`} />
   </Canvas>
 )
+
+export default App

@@ -43,32 +43,81 @@
 // Colour palette
 // ==========================================================================
 
-// Base colours
+// White
+$colour-white: #fff;
 
+// Alpha
 $colour-alpha: #ec6b1e;
-$colour-bravo: #6cc2b7;
-$colour-charlie: #1c304a;
-$colour-delta: #ffd47c;
-$colour-echo: #5b50a8;
-$colour-foxtrot: #393453;
-
-// Supporting colours
-
-$colour-alpha-light: #f68744;
 $colour-alpha-dark: #e85b17;
-$colour-bravo-light: #a7dad4;
-$colour-bravo-dark: #004b4b;
-$colour-charlie-dark: #212138;
+$colour-alpha-dark-100: #d94e00;
+$colour-alpha-light: #f88639;
+$colour-alpha-light-100: #ffa15e;
+
+// Bravo
+$colour-bravo: #6cc2b7;
+$colour-bravo-dark: #4ab1a4;
+$colour-bravo-dark-100: #0e9685;
+$colour-bravo-dark-200: #357e75;
+$colour-bravo-light: #84dbd1;
+$colour-bravo-light-100: #a0f2e9;
+
+
+// Charlie
+$colour-charlie: #1c304a;
+$colour-charlie-dark: #16273e;
+$colour-charlie-dark-100: #0b192d;
+$colour-charlie-light: #426796;
+$colour-charlie-light-100: #5e92d6;
+
+// Delta
+$colour-delta: #ffd47c;
+$colour-delta-dark: #fec144;
+$colour-delta-dark-100: #ffaf13;
 $colour-delta-light: #fde3ae;
-$colour-error: #fc4343;
+$colour-delta-light-100: #fff0d0;
+
+// Echo
+$colour-echo: #5b50a8;
+$colour-echo-dark: #3c3090;
+$colour-echo-dark-100: #1b0f5e;
+$colour-echo-light: #a399ea;
+$colour-echo-light-100: #d6d1ff;
+
+// Foxtrot
+$colour-foxtrot: #393453;
+$colour-foxtrot-dark: #212138;
+
+// Cool Greys
+$colour-cool-grey-50: #fbfbfb;
+$colour-cool-grey-100: #f4f4f4;
+$colour-cool-grey-200: #e6e6e8;
+$colour-cool-grey-300: #cdccd1;
+$colour-cool-grey-400: #bab9c0;
+$colour-cool-grey-500: #9997a3;
+$colour-cool-grey-600: #777584;
+$colour-cool-grey-700: #636171;
+$colour-cool-grey-800: #3c3a4a;
+$colour-cool-grey-900: #232132;
+
+// Warm Greys
+$colour-warm-grey-50: #fbfaf9;
+$colour-warm-grey-100: #f6f4f1;
+$colour-warm-grey-200: #f0ede8;
+$colour-warm-grey-300: #e3dfd8;
+$colour-warm-grey-400: #c7c2bc;
+$colour-warm-grey-500: #a19c97;
+$colour-warm-grey-600: #7d7873;
+$colour-warm-grey-700: #63605d;
+$colour-warm-grey-800: #484543;
+$colour-warm-grey-900: #25221f;
+
+// Functional
+$colour-success: #37be86;
+$colour-success-dark: #039971;
+$colour-success-light: #d9f5ed;
+$colour-warning: #f3a100;
+$colour-warning-dark: #9c5f1a;
+$colour-warning-light: #fff0d0;
+$colour-error: #ec2e2e;
+$colour-error-dark: #c71e1e;
 $colour-error-light: #ffefef;
-
-// Grayscale
-
-$colour-gray-alpha: #f3f3f3;
-$colour-gray-bravo: #e3e3e3;
-$colour-gray-charlie: #9998a2;
-$colour-gray-delta: #636171;
-$colour-gray-echo: #767584;
-$colour-gray-foxtrot: #fafafa;
-$colour-gray-golf: #737279;

@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Junior Front-End Developer Tech Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+First off, **don't worry**! This is a simple coding challenge just to see how you approach the task and how you work.
 
-## Available Scripts
+If you have any questions or need some help, we're here to give you a hand! Helping each other out is a big part of working at AFS. Just give us a shout at [careers@accommodationforstudents.com](mailto:careers@accommodationforstudents.com).
 
-In the project directory, you can run:
+## What we'd like you to do
+
+We'd like you to build a `PropertyCard` component using [these designs in Figma](https://www.figma.com/file/fkaZlLzbUTSg4f5fQmhyPM/Tech-test?node-id=0%3A1) as a guide.
+
+![Example Image](/example.png "Example")
+
+The property card should support different property data values - like property type, distance, bills, etc. - as shown in the designs.
+
+You can find out what styles should be applied to different elements by clicking on them and viewing the details in Figma's Inspect panel in the tools column on the right.
+
+![Example Image](/inspect-panel.png "Inspect panel")
+
+### Tasks
+
+1. Replace the placeholder `Message` component with the `PropertyCard`
+2. Build the `PropertyCard` component using the example images as a reference
+3. Use the property data to render all the properties in a list
+
+### Bonus challenges if you have time
+
+- Write some unit tests to check the correct information is displayed on the card
+- Add a filter button to toggle between rendering all properties and rendering properties with `propertyType: 'house'` when it is clicked
+
+## Tips
+
+- You can find mock data for some properties in `src/data/properties.js`
+- You will find variables for all the colours you need in `src/styles/settings.scss`
+- All icons have been provided for you as components in `src/components/icons`
+- The font used `Apax` is already available and can be used with the following property in your selectors `font-family: 'Apax', Helvetica, Arial, sans-serif;`
+
+## Running the app
+
+This task is built using `create-react-app` and everything is installed and ready for you to begin coding.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app and opens [http://localhost:3000](http://localhost:3000) in the browser.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Runs the suite of unit tests using Jest. All test results will be logged to the console.

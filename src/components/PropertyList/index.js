@@ -4,7 +4,7 @@ import '../PropertyList/styles.scss'
 
 const PropertyList = ({ properties }) => {
   return (
-    <div>
+    <div className="property-list">
       {properties.map((property) => (
         <PropertyCard
           key={property.id}

@@ -1,5 +1,8 @@
-/*
+import React from 'react'
+import '../PropertyCard/styles.scss'
 
-Start building your component in here!
+const PropertyCard = () => {
+  return <div>Hello</div>
+}
 
-*/
+export default PropertyCard

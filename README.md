@@ -1,10 +1,18 @@
 # Junior Front-End Developer Tech Task
 
-First off, **don't worry**! This is a simple coding challenge just to see how you approach the task and how you work. We are not expecting pixel-perfection at this early stage of your career.
+## Progress
 
-If you have any questions or need some help, we're here to give you a hand! Helping each other out is a big part of working at AFS. Just give us a shout at [careers@accommodationforstudents.com](mailto:careers@accommodationforstudents.com).
+- [x] Created Property Card componant to display data from properties.json
+- [x] Created Property List component to display all data from properties.json
+- [x] Styled Property Card using Figma designs, including hover effect
+- [x] Created test suite for Property Card 
 
-## What we'd like you to do
+## To do
+- [ ] Filter Property List by Property Type
+
+
+
+## Brief
 
 We'd like you to build a `PropertyCard` component using [these designs in Figma](https://www.figma.com/file/fkaZlLzbUTSg4f5fQmhyPM/Tech-test?node-id=0%3A1) as a guide.
 

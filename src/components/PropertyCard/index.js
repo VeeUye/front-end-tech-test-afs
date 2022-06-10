@@ -21,20 +21,9 @@ const PropertyCard = ({ properties }) => {
     tenancyAgreement,
     terms,
     thumbnails,
-  } = properties[0]
+  } = properties
 
   return (
-    // <div className="property-card">
-    //   <img className="photo" src={thumbnails[0].url} alt="property"></img>
-    //   <div className="property-info">
-    //     <div className="propert-info-innner">
-    //       <div className="frame-106">
-    //         <div className="property-type">{propertyType}</div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
     <div className="property-card">
       <img className="photo" src={thumbnails[0].url} alt="property"></img>
       <div className="property-info">

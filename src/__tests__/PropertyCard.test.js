@@ -1,5 +1,6 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
+import '@testing-library/jest-dom'
 import PropertyCard from '../components/PropertyCard'
 
 describe('PropertyCard', () => {
@@ -46,9 +47,35 @@ describe('PropertyCard', () => {
     )
     expect(asFragment()).toMatchSnapshot()
   })
-  // it("renders correct values from props", () => {
-  //     render(
 
-  //     )
-  // })
+  it('renders correct values for props', () => {
+    const { getByText } = render(
+      <PropertyCard
+        accountType={validProps.accountType}
+        address={validProps.address}
+        availableFrom={validProps.availableFrom}
+        baths={validProps.baths}
+        beds={validProps.beds}
+        distanceFromUniversity={validProps.distanceFromUniversity}
+        propertyType={validProps.propertyType}
+        tenancyAgreement={validProps.tenancyAgreement}
+        terms={validProps.terms}
+        thumbnails={validProps.thumbnails.url}
+      />
+    )
+
+    expect(screen.getByText(/Landlord/i)).toBeInTheDocument()
+
+    expect(screen.getByText(/Darley Road/i)).toBeInTheDocument()
+
+    expect(screen.getByText(/12 December/i)).toBeInTheDocument()
+
+    expect(screen.getByText(/walk/i)).toBeInTheDocument()
+
+    expect(screen.getByText(/flat/i)).toBeInTheDocument()
+
+    expect(screen.getByText(/suitable for groups/i)).toBeInTheDocument()
+
+    expect(screen.getByText(/bills included/i)).toBeInTheDocument()
+  })
 })

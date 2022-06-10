@@ -2,7 +2,7 @@ import React from 'react'
 
 import Canvas from './components/Canvas'
 
-import PropertyCard from './components/PropertyCard'
+import PropertyList from './components/PropertyList'
 
 import './App.scss'
 
@@ -10,7 +10,7 @@ function App(props) {
   const { properties } = props
   return (
     <Canvas>
-      <>{<PropertyCard properties={properties} />}</>
+      <>{<PropertyList properties={properties} />}</>
     </Canvas>
   )
 }

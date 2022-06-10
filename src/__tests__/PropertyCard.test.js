@@ -33,7 +33,7 @@ describe('PropertyCard', () => {
     const { asFragment } = render(
       <PropertyCard
         accountType={validProps.accountType}
-        address={validProps.address2}
+        address={validProps.address}
         availableFrom={validProps.availableFrom}
         baths={validProps.baths}
         beds={validProps.beds}

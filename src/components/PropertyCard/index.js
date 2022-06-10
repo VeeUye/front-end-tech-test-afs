@@ -9,7 +9,7 @@ import DistanceFromIcon from '../icons/DistanceFromIcon'
 import TenancyAgreementIcon from '../icons/TenancyAgreementIcon'
 import '../PropertyCard/styles.scss'
 
-const PropertyCard = ({ properties }) => {
+const PropertyCard = (props) => {
   const {
     accountType,
     address,
@@ -21,7 +21,7 @@ const PropertyCard = ({ properties }) => {
     tenancyAgreement,
     terms,
     thumbnails,
-  } = properties
+  } = props
 
   return (
     <div className="property-card">

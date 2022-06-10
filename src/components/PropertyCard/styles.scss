@@ -7,3 +7,560 @@
 //
 // Start adding your styles here!
 //
+
+
+.property-card {
+  position: relative;
+  display: flex;
+  width: 791px;
+  height: 210px;
+  margin-bottom: 1rem;
+  top: 180px;
+
+  background: #ffffff;
+
+  border: 2px solid #cdccd1;
+  border-radius: 8px;
+}
+
+// TODO add this after the html and main styling
+
+.property-card:hover {
+  border: 2px solid #ec6b1e;
+  border-radius: 8px;
+}
+
+// photo
+// ===========================================================================
+
+.photo {
+  position: absolute;
+  width: 300px;
+  height: 210px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  border-radius: 8px;
+}
+
+// property info
+// ===========================================================================
+
+.property-info {
+  position: absolute;
+  left: 300px;
+  right: 154px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.property-info-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 143px;
+  height: 53px;
+  left: 24px;
+  top: 13px;
+}
+
+.frame-106 {
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+
+  width: 123px;
+  height: 26px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.property-type {
+  width: 44px;
+  height: 26px;
+
+  font-style: bold;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+
+  display: flex;
+  align-items: center;
+
+  color: #0e9685;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.seperator {
+  width: 7px;
+  height: 26px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+
+  display: flex;
+  align-items: center;
+
+  color: #3c3a4a;
+
+  opacity: 0.32;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.account-type {
+  width: 200px;
+  height: 26px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+
+  display: flex;
+  align-items: center;
+
+  color: #3c3a4a;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.address-header {
+  width: 300px;
+  height: 27px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.2px;
+  line-height: 26px;
+  display: flex;
+  align-content: flex-start;
+
+  color: #3c3a4a;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+// beds and baths
+// ===========================================================================
+
+.beds-baths {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 207px;
+  height: 24px;
+  left: 0px;
+  top: 60px;
+}
+
+.beds {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 10px;
+
+  width: 88px;
+  height: 24px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.bed-4-1 {
+  width: 24px;
+  height: 24px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.beds-icon-container {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 0%;
+  right: 0%;
+  top: 10.35%;
+  bottom: 10.35%;
+}
+
+.beds-icon {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 3%;
+  bottom: 20.35%;
+}
+
+.beds-text {
+  width: 54px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #3c3a4a;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.baths {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 10px;
+
+  width: 95px;
+  height: 24px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.baths-text {
+  width: 61px;
+  height: 24px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #3c3a4a;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.shower-icon-container {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 42%;
+  right: 0%;
+  bottom: 10.35%;
+}
+
+.shower-icon {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 10.35%;
+  bottom: 10.35%;
+}
+
+// info
+// ===========================================================================
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  position: absolute;
+  width: 206px;
+  height: 75px;
+  left: 24px;
+  top: 119px;
+}
+
+.tenancy-agreement {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 153px;
+  height: 17px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.profile {
+  width: 16px;
+  height: 16px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tenancy-agreement-text {
+  width: 129px;
+  height: 17px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  display: flex;
+  align-items: center;
+
+  color: #777584;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.available-from {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 206px;
+  height: 17px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.available-from-text {
+  width: 182px;
+  height: 17px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  display: flex;
+  align-items: center;
+
+  color: #777584;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.calender {
+  width: 16px;
+  height: 16px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 198px;
+  height: 17px;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.location {
+  width: 16px;
+  height: 16px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.location-text {
+  width: 174px;
+  height: 17px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  display: flex;
+  align-items: center;
+
+  color: #3c3a4a;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+// heart
+// ===========================================================================
+
+.heart {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 16px;
+  top: 16px;
+}
+
+.heart-icon {
+  position: absolute;
+  left: 4.17%;
+  right: 4.17%;
+  top: 8.33%;
+  bottom: 8.33%;
+}
+
+// price
+// ===========================================================================
+
+.price {
+  position: absolute;
+  width: 171px;
+  height: 71px;
+  right: 16px;
+  bottom: 16px;
+}
+
+.price-inner {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 107px;
+  height: 37px;
+  right: 0px;
+  bottom: 30px;
+}
+
+.price-text {
+  width: 36px;
+  height: 13px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+
+  color: #3c3a4a;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.price-value {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 2px;
+
+  width: 107px;
+  height: 31px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.price-ppw {
+  width: 57px;
+  height: 31px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+
+  color: #ec6b1e;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.bills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+
+  position: absolute;
+  width: 131px;
+  height: 17px;
+  right: -0.5px;
+  top: 54px;
+}
+
+.bills-inner {
+  width: 131px;
+  height: 17px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #636171;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
